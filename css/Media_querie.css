@@ -1,0 +1,51 @@
+@media (max-width: 1024px) {
+header nav ul li a{
+    font-size: 1.1rem;
+
+}
+h1,h2,h3{
+    line-height: 1.5em;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+h1,h3{
+    font-family: Toontime2;
+    font-size: 1rem;
+}
+h2{
+    font-family: Toontime2;
+    font-size: 0.7rem;
+}
+p{
+text-align: center;
+font-size: 0.8rem;
+letter-spacing: 0.2rem;
+}
+.indhold .box img{
+    margin: 30px auto 20px auto;
+    width:180px;
+    height: 180px;
+}
+#produkter{
+    height: 160px;
+    width: 160px;
+    margin-left: 10px;
+}
+.info_ønske {
+    grid-column: 2/4;
+    margin: auto 20px auto 20px;
+}
+header .login, .search {
+    width: 130px;
+    margin: 1px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.box .vare_info p{
+    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+
+}

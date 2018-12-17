@@ -1,0 +1,11 @@
+.ønske_genstand{
+position: relative;
+}
+.delete{
+position: absolute;
+top: 1;
+right: 0;
+height: 18px;
+width: 18px;
+margin:5px;
+}

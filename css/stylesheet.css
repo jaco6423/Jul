@@ -1,0 +1,36 @@
+
+
+.wishlist {
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: 1fr 1fr;
+padding-top: 50px;
+grid-gap: 20px;
+}
+
+#produkter {
+    width: 50%;
+    height: 100px;
+    padding-left: 20px;
+   
+}
+
+
+.knapper {
+    padding-bottom: 10px;
+    display: block;
+    
+}
+
+
+.pris {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    
+}
+
+
+
+
+
