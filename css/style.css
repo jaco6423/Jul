@@ -27,6 +27,13 @@ h2{
     font-family: Toontime2;
     font-size: 0.9rem;
 }
+h4 {
+    font-family: Toontime2;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    color:white;
+    margin:auto;
+}
 p{
 font-family:mali;
 font-weight: 100;
@@ -83,7 +90,7 @@ li > a {
     color: rgb(226, 226, 226);
     text-decoration: none;
     font-size: 1.2em;
-    font-family: Bahnschrift;
+    
     position: relative;
     padding: 10px;
  }
@@ -365,13 +372,6 @@ p.pris, p.beskrivelse, ul.knapper_unite {
     
 }
 
-h4 {
-    font-family: Toontime2;
-    font-size: 2em;
-    letter-spacing: 0.3em;
-    color:white;
-    margin:auto;
-}
 
 .bruger {
     display: grid;

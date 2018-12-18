@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/cross.css">
+    <link rel="stylesheet" href="../css/Media_querie.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bentham" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+   
+    <title>BR Ønskebog</title>
+</head>
+<body>
+    
+    <header>
+      <a class="logo" href="../front.html"><img  src="../img/BR_LOGO_550x550.png" alt="logo"></a>
+       <nav>
+            <ul>
+                <li><a href="../undersider/dreng.html">Dreng</a></li>
+                <li><a href="../undersider/pige.html">Pige</a></li>
+                <li><a href="../undersider/tilbud.html">Tilbud</a></li>
+                <li><a href="../undersider/ønskeliste.html">Ønskeliste</a></li>
+            </ul>
+        </nav>
+    <section class="log_søg"> 
+        
+        <input class="search" type="text" placeholder="Søg..">
+        <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log ind</button>
+
+        <section id="id01" class="modal">
+          
+          <form class="modal-content animate" action="bruger side.html">
+            <section class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+            </section>
+        
+            <section class="container">
+                <label for="uname"><b>Brugernavn</b></label>
+                <input type="text" placeholder="Brugernavn" name="uname" required>
+          
+                <label for="psw"><b>Kodeord</b></label>
+                <input type="password" placeholder="Kodeord" name="psw" required>
+                  
+                <button class="loginbutton" type="submit">Log ind</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Husk mig
+                </label>
+              </section>
+          
+              <section class="container">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                <span class="psw">Glemt <a href="#">kodeord?</a></span>
+              </section>
+            </form>
+          </section> 
+    </section>
+    </header>
+<main class="indhold_to">
+        <button class="dele"onclick="document.getElementById('id01').style.display='block'"><h4>Del Ønskeliste</h4></button>
+           <section class="ønske_genstand">
+            <img id="produkter" src="../img/pige1.png">
+            <article class="info_ønske">
+            <h2 class="titel">Airbrushstylingstudio</h2>
+            <p class="beskrivelse">Lær at style som en professionel med dette airbrushstylingsæt!</p>
+            </article>
+            <p class="pris">299,00 kr</p>
+            <ul class="knapper_unite" >
+                <li class="delete"><img src="../img/Icons/kryds2.png" alt="delete"></li>    
+                <li><button class="køb_butt"onclick="document.getElementById('id01').style.display='block'"></button>
+
+                    <section id="id01" class="modal">
+                      
+                      <form class="modal-content animate" action="bruger side.html">
+                        <section class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+                        </section>
+                    
+                        <section class="container">
+                            <label for="uname"><b>Brugernavn</b></label>
+                            <input type="text" placeholder="Brugernavn" name="uname" required>
+                      
+                            <label for="psw"><b>Kodeord</b></label>
+                            <input type="password" placeholder="Kodeord" name="psw" required>
+                              
+                            <button class="loginbutton" type="submit">Log ind</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Husk mig
+                            </label>
+                          </section>
+                      
+                          <section class="container">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                            <span class="psw">Glemt <a href="#">kodeord?</a></span>
+                          </section>
+                        </form></li>
+            </ul>
+       </section>
+       <section class="ønske_genstand">
+            <img id="produkter" src="../img/dreng4.png">
+            <article class="info_ønske">
+            <h2 class="titel">Lego City</h2>
+            <p class="beskrivelse">Grib dit politiskilt, og tag med LEGO® City bjergpolitiets betjente på en anholdelse!</p>
+        </article>
+            <p class="pris">449, 00 kr</p>
+            <ul class="knapper_unite" >
+                <li class="delete"><img src="../img/Icons/kryds2.png" alt="delete"></li>  
+               <li><button class="køb_butt"onclick="document.getElementById('id01').style.display='block'"></button>
+
+                    <section id="id01" class="modal">
+                      
+                      <form class="modal-content animate" action="bruger side.html">
+                        <section class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+                        </section>
+                    
+                        <section class="container">
+                            <label for="uname"><b>Brugernavn</b></label>
+                            <input type="text" placeholder="Brugernavn" name="uname" required>
+                      
+                            <label for="psw"><b>Kodeord</b></label>
+                            <input type="password" placeholder="Kodeord" name="psw" required>
+                              
+                            <button class="loginbutton" type="submit">Log ind</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Husk mig
+                            </label>
+                          </section>
+                      
+                          <section class="container">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                            <span class="psw">Glemt <a href="#">kodeord?</a></span>
+                          </section>
+                        </form></li>
+            </ul>
+       </section>
+       <section class="ønske_genstand">
+            <img id="produkter" src="../img/pige4.png">
+            <article class="info_ønske">
+            <h2 class="titel">Disney-prinsesser</h2>
+            <p class="beskrivelse">Er du klar til at udfordre dine puslespilsfærdigheder</p>
+        </article>
+            <p class="pris">22,-</p>
+            <ul class="knapper_unite" >
+                <li class="delete"><img src="../img/Icons/kryds2.png" alt="delete"></li>  
+               <li><button class="køb_butt"onclick="document.getElementById('id01').style.display='block'"></button>
+
+                    <section id="id01" class="modal">
+                      
+                      <form class="modal-content animate" action="bruger side.html">
+                        <section class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+                        </section>
+                    
+                        <section class="container">
+                            <label for="uname"><b>Brugernavn</b></label>
+                            <input type="text" placeholder="Brugernavn" name="uname" required>
+                      
+                            <label for="psw"><b>Kodeord</b></label>
+                            <input type="password" placeholder="Kodeord" name="psw" required>
+                              
+                            <button class="loginbutton" type="submit">Log ind</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Husk mig
+                            </label>
+                          </section>
+                      
+                          <section class="container">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                            <span class="psw">Glemt <a href="#">kodeord?</a></span>
+                          </section>
+                        </form></li>
+            </ul>
+       </section>
+       <section class="ønske_genstand">
+            <img id="produkter" src="../img/dreng2.png">
+            <article class="info_ønske">
+            <h2 class="titel">Flexi-Trax biler 3</h2>
+            <p class="beskrivelse">Gør dig klar til spændende racerløb med denne FLEXI-TRAX CARS 3 Speedway-bane!</p>
+        </article>
+            <p class="pris">399,00 kr</p>
+            <ul class="knapper_unite" >
+                <li class="delete"><img src="../img/Icons/kryds2.png" alt="delete"></li>  
+               <li><button class="køb_butt"onclick="document.getElementById('id01').style.display='block'"></button>
+
+                    <section id="id01" class="modal">
+                      
+                      <form class="modal-content animate" action="bruger side.html">
+                        <section class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+                        </section>
+                    
+                        <section class="container">
+                            <label for="uname"><b>Brugernavn</b></label>
+                            <input type="text" placeholder="Brugernavn" name="uname" required>
+                      
+                            <label for="psw"><b>Kodeord</b></label>
+                            <input type="password" placeholder="Kodeord" name="psw" required>
+                              
+                            <button class="loginbutton" type="submit">Log ind</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Husk mig
+                            </label>
+                          </section>
+                      
+                          <section class="container">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                            <span class="psw">Glemt <a href="#">kodeord?</a></span>
+                          </section>
+                        </form></li>
+            </ul>
+       </section>
+       <section class="ønske_genstand">
+            <img id="produkter" src="../img/tilbud2.png">
+            <article class="info_ønske">
+            <h2 class="titel">Spire aktivitetskøkken</h2>
+            <p class="beskrivelse">Køkkenvogn i træ Hold din lille kok inspireret med dette aktivitetskøkken fra Spire. </p>
+        </article>
+            <p class="pris">349,00 kr</p>
+            <ul class="knapper_unite" >
+                <li class="delete"><img src="../img/Icons/kryds2.png" alt="delete"></li>  
+               <li><button class="køb_butt"onclick="document.getElementById('id01').style.display='block'"></button>
+
+                    <section id="id01" class="modal">
+                      
+                      <form class="modal-content animate" action="bruger side.html">
+                        <section class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+                        </section>
+                    
+                        <section class="container">
+                            <label for="uname"><b>Brugernavn</b></label>
+                            <input type="text" placeholder="Brugernavn" name="uname" required>
+                      
+                            <label for="psw"><b>Kodeord</b></label>
+                            <input type="password" placeholder="Kodeord" name="psw" required>
+                              
+                            <button class="loginbutton" type="submit">Log ind</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Husk mig
+                            </label>
+                          </section>
+                      
+                          <section class="container">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                            <span class="psw">Glemt <a href="#">kodeord?</a></span>
+                          </section>
+                        </form></li>
+            </ul>
+       </section>
+       <section class="ønske_genstand">
+            <img id="produkter" src="../img/pige5.png">
+            <article class="info_ønske">
+        <h2 class="titel">Vtech bog med børnerim</h2>
+        <p class="beskrivelse">Vtech-bog med lys og lyde Der venter dit barn en verden af sjov og læring</p>
+    </article>
+        <p class="pris">199,00 kr</p>
+        <ul class="knapper_unite" >
+            <li class="delete"><img src="../img/Icons/kryds2.png" alt="delete"></li>  
+           <li><button class="køb_butt"onclick="document.getElementById('id01').style.display='block'"></button>
+
+                    <section id="id01" class="modal">
+                      
+                      <form class="modal-content animate" action="bruger side.html">
+                        <section class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+                        </section>
+                    
+                        <section class="container">
+                            <label for="uname"><b>Brugernavn</b></label>
+                            <input type="text" placeholder="Brugernavn" name="uname" required>
+                      
+                            <label for="psw"><b>Kodeord</b></label>
+                            <input type="password" placeholder="Kodeord" name="psw" required>
+                              
+                            <button class="loginbutton" type="submit">Log ind</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Husk mig
+                            </label>
+                          </section>
+                      
+                          <section class="container">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                            <span class="psw">Glemt <a href="#">kodeord?</a></span>
+                          </section>
+                        </form></li>
+        </ul>
+       </section>
+       <section class="ønske_genstand">
+            <img id="produkter" src="../img/tilbud4.png">
+            <article class="info_ønske">
+            <h2 class="titel">Familiens begynderhus</h2>
+            <p class="beskrivelse">Cosy Cottage-begynderhuset er det perfekte hus til enhver, som har truffet den spændende beslutning</p>
+            </article>
+               <p class="pris">399,00 kr</p>
+            <ul class="knapper_unite" >
+                <li class="delete"><img src="../img/Icons/kryds2.png" alt="delete"></li>  
+               <li><button class="køb_butt"onclick="document.getElementById('id01').style.display='block'"></button>
+
+                    <section id="id01" class="modal">
+                      
+                      <form class="modal-content animate" action="bruger side.html">
+                        <section class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+                        </section>
+                    
+                        <section class="container">
+                            <label for="uname"><b>Brugernavn</b></label>
+                            <input type="text" placeholder="Brugernavn" name="uname" required>
+                      
+                            <label for="psw"><b>Kodeord</b></label>
+                            <input type="password" placeholder="Kodeord" name="psw" required>
+                              
+                            <button class="loginbutton" type="submit">Log ind</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Husk mig
+                            </label>
+                          </section>
+                      
+                          <section class="container">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                            <span class="psw">Glemt <a href="#">kodeord?</a></span>
+                          </section>
+                        </form></li>
+            </ul>
+       </section>
+       <section class="ønske_genstand">
+            <img id="produkter" src="../img/pige2.png">
+            <article class="info_ønske">
+            <h2 class="titel">The avengers team</h2>
+            <p class="beskrivelse">Captain America: Civil War, Captain America og Iron Man</p>
+        </article>
+            <p class="pris">35,00 kr</p>
+            <ul class="knapper_unite" >
+                <li class="delete"><img src="../img/Icons/kryds2.png" alt="delete"></li>  
+
+               <li><button class="køb_butt"onclick="document.getElementById('id01').style.display='block'"></button>
+
+                    <section id="id01" class="modal">
+                      
+                      <form class="modal-content animate" action="bruger side.html">
+                        <section class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+                        </section>
+                    
+                        <section class="container">
+                            <label for="uname"><b>Brugernavn</b></label>
+                            <input type="text" placeholder="Brugernavn" name="uname" required>
+                      
+                            <label for="psw"><b>Kodeord</b></label>
+                            <input type="password" placeholder="Kodeord" name="psw" required>
+                              
+                            <button class="loginbutton" type="submit">Log ind</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Husk mig
+                            </label>
+                          </section>
+                      
+                          <section class="container">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                            <span class="psw">Glemt <a href="#">kodeord?</a></span>
+                          </section>
+                        </form></li>
+            </ul>
+       </section>
+
+
+       <section id="id01" class="modal">
+         
+         <form class="modal-content animate" action="bruger side.html">
+           <section class="imgcontainer">
+             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+             <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+           </section>
+       
+           <section class="container">
+               <label for="uname"><b>Brugernavn</b></label>
+               <input type="text" placeholder="Brugernavn" name="uname" required>
+         
+               <label for="psw"><b>Kodeord</b></label>
+               <input type="password" placeholder="Kodeord" name="psw" required>
+                 
+               <button class="loginbutton" type="submit">Log ind</button>
+               <label>
+                 <input type="checkbox" checked="checked" name="remember"> Husk mig
+               </label>
+             </section>
+         
+             <section class="container">
+               <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+               <span class="psw">Glemt <a href="#">kodeord?</a></span>
+             </section>
+
+
+    </main>
+</body>
+</html>

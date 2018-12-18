@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/Media_querie.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bentham" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+    <title>BR Ønskebog</title>
+</head>
+<body>
+    
+    <header>
+            <a class="logo" href="../front.html"><img  src="../img/BR_LOGO_550x550.png" alt="logo"></a>
+       <nav>
+            <ul>
+                <li><a href="../undersider/dreng.html">Dreng</a></li>
+                <li><a href="../undersider/pige.html">Pige</a></li>
+                <li><a href="../undersider/tilbud.html">Tilbud</a></li>
+                <li><a href="../undersider/ønskeliste.html">Ønskeliste</a></li>
+            </ul>
+        </nav>
+    <section class="log_søg"> 
+        
+        <input class="search" type="text" placeholder="Søg..">
+        <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log ind</button>
+
+        <section id="id01" class="modal">
+          
+          <form class="modal-content animate" action="bruger side.html">
+            <section class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+            </section>
+        
+            <section class="container">
+                <label for="uname"><b>Brugernavn</b></label>
+                <input type="text" placeholder="Brugernavn" name="uname" required>
+          
+                <label for="psw"><b>Kodeord</b></label>
+                <input type="password" placeholder="Kodeord" name="psw" required>
+                  
+                <button class="loginbutton" type="submit">Log ind</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Husk mig
+                </label>
+              </section>
+          
+              <section class="container">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                <span class="psw">Glemt <a href="#">kodeord?</a></span>
+              </section>
+            </form>
+          </section> 
+    </section>
+    </header>
+<main class="indhold">
+    <section class="box">
+        <img class="img_structure" src="../img/tilbud10.png" alt="Baby born">
+        <article class="vare_info">
+            <h1>Baby Born</h1>
+            <p> Den originale baby born, nu på tilbud</p>
+        </article>
+        <section class="tilbud">
+                <p>170,00 kr</p>
+                <p class="før_pris">200,00 kr</p>
+            </section>
+       <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+     </section>   
+     <section class="box">
+            <img class="img_structure" src="../img/tilbud8.png" alt="SCHLEICH 42112 westernrytter">
+            <article class="vare_info">
+                <h1>Westernrytter</h1>
+                <p>Både rytter og hest er klar til at galoppere ud over prærien i det vilde vesten. Rytter, saddel og seletøj kan tages af.</p>
+            </article>
+            <section class="tilbud">
+                    <p>75,00 kr</p>
+                    <p class="før_pris">195,00 kr</p>
+                </section>
+           <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+         </section> 
+         <section class="box">
+                <img class="img_structure" src="../img/tilbud2.png" alt="Spire aktivitetskøkken">
+                <article class="vare_info">
+                    <h1>Spire aktivitetskøkken</h1>
+                    <p>Køkkenvogn i træ Hold din lille kok inspireret med dette aktivitetskøkken fra Spire</p>
+                </article>
+                <section class="tilbud">
+                        <p>299,00 kr</p>
+                        <p class="før_pris">400,00 kr</p>
+                    </section>
+               <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+             </section>  
+             <section class="box">
+                    <img class="img_structure" src="../img/tilbud3.png" alt="Nerf N-Strike Elite Refill">
+                    <article class="vare_info">
+                        <h1>Nerf n-strike refill</h1>
+                        <p>Refill med 12 pile til Nerf N'Strike-blastere</p>
+                    </article>
+                    <section class="tilbud">
+                            <p>49,00 kr</p>
+                            <p class="før_pris">70,00 kr</p>
+                        </section>
+                   <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+                 </section>       
+                 <section class="box">
+                        <img class="img_structure" src="../img/tilbud4.png" alt="Dukkehus">
+                        <article class="vare_info">
+                            <h1>Dukkehus</h1>
+                            <p>Hyggeligt dukkehus til mange timers sjov derhjemme</p>
+                        </article>
+                        <section class="tilbud">
+                                <p>70,00 kr</p>
+                                <p class="før_pris">100,00 kr</p>
+                            </section>
+                       <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+                     </section> 
+                         <section class="box">
+                                    <img class="img_structure" src="../img/tilbud6.png" alt="BIL">
+                                    <article class="vare_info">
+                                        <h1>Frozen puslespil</h1>
+                                        <p>100 brikker</p>
+                                    </article>
+                                    <section class="tilbud">
+                                            <p>50,00 kr</p>
+                                            <p class="før_pris">99,00 kr</p>
+                                        </section>
+                         
+                                   <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+                                 </section> 
+                                 <section class="box">
+                                        <img class="img_structure" src="../img/tilbud7.png" alt="SPY NET Vibrasonic walkie-talkier">
+                                        <article class="vare_info">
+                                            <h1>Walkie-talkier</h1>
+                                            <p>Vibrasonic walkie-talkier til børn</p>
+                                        </article>
+                                        <section class="tilbud">
+                                                <p>399,00 kr</p>
+                                                <p class="før_pris">499,00 kr</p>                                                
+                                            </section>
+                      
+                                       <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+                                     </section>
+                                     <section class="box">
+                                            <img class="img_structure" src="../img/tilbud9.png" alt="HOT WHEELS STAR WARS metalstøbt rumskib">
+                                            <article class="vare_info">
+                                                <h1>Hot wheels</h1>
+                                                <p>Gør klar til at rejse til en galakse fyldt med fart og spænding</p>
+                                            </article>
+                                            <section class="tilbud">
+                                                    <p>30,00 kr</p>
+                                                    <p class="før_pris">70,00 kr</p>                                                    
+                                                </section>
+                     
+                                           <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+                                         </section>  
+    
+
+    
+
+        </main>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/Media_querie.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bentham" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+    <title>BR Ønskebog</title>
+</head>
+<body>
+    
+    <header>
+            <a class="logo" href="../front.html"><img  src="../img/BR_LOGO_550x550.png" alt="logo"></a>
+       <nav>
+            <ul>
+                <li><a href="../undersider/dreng.html">Dreng</a></li>
+                <li><a href="../undersider/pige.html">Pige</a></li>
+                <li><a href="../undersider/tilbud.html">Tilbud</a></li>
+                <li><a href="../undersider/ønskeliste.html">Ønskeliste</a></li>
+            </ul>
+        </nav>
+    <section class="log_søg"> 
+        
+        <input class="search" type="text" placeholder="Søg..">
+        <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log ind</button>
+
+        <section id="id01" class="modal">
+          
+          <form class="modal-content animate" action="bruger side.html">
+            <section class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="..\img\icons\user.png" alt="Avatar" class="avatar">
+            </section>
+        
+            <section class="container">
+                <label for="uname"><b>Brugernavn</b></label>
+                <input type="text" placeholder="Brugernavn" required>
+          
+                <label for="psw"><b>Kodeord</b></label>
+                <input type="password" placeholder="Kodeord" required>
+                  
+                <button class="loginbutton" type="submit">Log ind</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Husk mig
+                </label>
+              </section>
+          
+              <section class="container">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuller</button>
+                <span class="psw">Glemt <a href="#">kodeord?</a></span>
+              </section>
+            </form>
+          </section> 
+    </section>
+    </header>
+<main class="indhold">
+    <section class="box">
+        <img class="img_structure" src="../img/pige1.png" alt="Airbrushstylingstudio">
+        <article class="vare_info">
+            <h1>Airbrush stylingstudio</h1>
+            <p>Lær at style som en professionel med dette airbrushstylingsæt!</p>
+        </article>
+       <p class="pris">299,00 kr</p>
+       <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+     </section> 
+     <section class="box">
+        <img class="img_structure" src="../img/pige2.png" alt="The Avengers">
+        <article class="vare_info">
+            <h1>The avengers</h1>
+            <p>Captain America: Civil War, Captain America og Iron Man</p>
+        </article>
+       <p class="pris">35,00 kr</p>
+       <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+     </section> 
+    <section class="box">
+       <img class="img_structure" src="../img/pige3.png" alt="Sutteflaske">
+       <article class="vare_info">
+           <h1>Baby born Sutteflaske</h1>
+           <p>Tilbehør til baby born </p>
+       </article>
+      <p class="pris">69,00 kr</p>
+      <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+      </button>
+    </section> 
+    <section class="box">
+        <img class="img_structure" src="../img/pige4.png" alt="puslespil">
+        <article class="vare_info">
+            <h1>Disney Rapunzels puslespil</h1>
+            <p>Rapunzels spille spil, byder på mange timers sjov og leg </p>
+        </article>
+       <p class="pris">69,00 kr</p>
+       <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+     </section> 
+     <section class="box">
+        <img class="img_structure" src="../img/pige5.png" alt="Baby bog">
+        <article class="vare_info">
+            <h1>Vtech bog med børnerim</h1>
+            <p>Vtech-bog med lys og lyde Der venter dit barn en verden af sjov og læring.</p>
+        </article>
+       <p class="pris">199,00 kr</p>
+       <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+       </button>
+     </section> 
+     <section class="box">
+            <img class="img_structure" src="../img/tilbud10.png" alt="Baby born">
+            <article class="vare_info">
+                <h1>Baby born</h1>
+                <p>Baby born, som vi alle kender og elsker den</p>
+            </article>
+            <section class="tilbud">
+                    <p>200,00 kr</p>
+                    <p class="før_pris">399,00 kr</p>
+                </section>
+                <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+                </button>
+         </section>
+         <section class="box">
+                <img class="img_structure" src="../img/pige7.png" alt="Barbie bil">
+                <article class="vare_info">
+                    <h1>Barbie</h1>
+                    <p>Barbie-bil, Kør en tur til stranden, byen, landet eller måske udlandet i Barbies glam-cabriolet!</p>
+                </article>
+               <p class="pris">279,00 kr</p>
+               <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+               </button>
+             </section>
+             <section class="box">
+                    <img class="img_structure" src="../img/pige6.png" alt="BEBELLINO blød dukke">
+                    <article class="vare_info">
+                        <h1>Bebeline</h1>
+                        <p>Få alle de kram, du vil, med denne søde og bløde Bebelino-dukke.</p>
+                    </article>
+                   <p class="pris">89,00 kr</p>
+                   <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+                   </button>
+                 </section>
+                </section>
+                <section class="box">
+                       <img class="img_structure" src="../img/pige9.png" alt="HAMA Midi kæmpe gaveæske lyserød">
+                       <article class="vare_info">
+                           <h1>Hama midi gavelske</h1>
+                           <p>Hama midi-gaveæske med perler Gaveæsken fra HAMA indeholder ca. 6.000 Midi-perler.</p>
+                       </article>
+                      <p class="pris">139,00 kr</p>
+                      <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+                      </button>
+                    </section>
+                    <section class="box">
+                            <img class="img_structure" src="../img/pige10.png" alt="HAMA KIT MAXI DINOSAUR">
+                            <article class="vare_info">
+                                <h1>Hama kit dinosaur</h1>
+                                <p>Perler til at lave din egen dino</p>
+                            </article>
+                           <p class="pris">39,95 kr</p>
+                           <button class="ønskeliste"><a href="../undersider/ønskeliste.html"><h2>Ønskeliste</h2> </a>
+                           </button>
+                         </section>
+
+
+
+     </section>             
+
+
+        </main>
+</body>
+</html>

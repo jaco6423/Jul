@@ -1,0 +1,3 @@
+position:relative,
+så item der liger inde i den får absolute,
+og brugt, top, right, left, bottom til at justere på dens position.
