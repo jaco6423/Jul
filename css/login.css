@@ -1,8 +1,8 @@
 /* Full-width input fields */
 input[type=text], input[type=password] {
-    
-    padding: 20px;
-    margin: 20px auto;
+    height: 34px;
+    padding: px;
+    margin:5px auto;
     display: block;
     border: 2px solid #ccc;
     box-sizing: border-box;
